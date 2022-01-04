@@ -7,7 +7,11 @@ function Start() {
     navigate("/login");
   };
 
-  return <button onClick={handleStart}>Start Application</button>;
+  return (
+    <button className="btn btn-primary m-4" onClick={handleStart}>
+      Start Application
+    </button>
+  );
 }
 
 export default Start;
